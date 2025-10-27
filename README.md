@@ -14,4 +14,8 @@
 
 # Lesson 4: Dynamic Streaming
 1. Learned how to set up dynamic breakpoints—where the graph basically interrupts itself internally based on a condition—using NodeInterrupt().
-2. I tweaked the code by changing the prompts and breakpoints.
+2. I tweaked the code by changing the prompts and breakpoints. 
+
+# Lesson 5: Time Travel
+1. Learned about using get_state_history() to view the graph's full history. Leanred time-travel functionality: using a checkpoint_id with graph.stream() which lets you replay, edit, or fork the graph from any previous step.
+2. I tweaked the code by updating the arithmetic expressions/operations used as input for testing the graph.
