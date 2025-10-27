@@ -11,3 +11,7 @@
 # Lesson 3: Editing State and Human Feedback
 1. Learned how to utilize breakpoints for more than just simple approval—they can now be used to directly modify the graph's state. This is a much more powerful form of Human-in-the-Loop (HITL) interaction. 
 2. I tweaked the code by adding more tools to the existing tool list that is passed to the chat model. I also changed the prompts to test.
+
+# Lesson 4: Dynamic Streaming
+1. Learned how to set up dynamic breakpoints—where the graph basically interrupts itself internally based on a condition—using NodeInterrupt().
+2. I tweaked the code by changing the prompts and breakpoints.
